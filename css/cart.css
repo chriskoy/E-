@@ -1,0 +1,648 @@
+/* 顶部栏目 */
+        #topBar {
+            width: 100%;
+            height: 28px;
+            background-color: #F5F5F5;
+        }
+
+        #topBar li {
+            line-height: 28px;
+            float: left;
+            margin-left: 6px;
+            font-size: 13px;
+            cursor: pointer;
+
+        }
+
+        #topBar li span {
+            color: #FF6600;
+        }
+
+        /* 登录窗口 */
+        #lean_overlay {
+            position: fixed;
+            z-index: 100;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            background: #000;
+            display: none;
+        }
+
+        .newlogin_con {
+            margin: 20px auto;
+            width: 422px;
+            height: 379px;
+            padding: 25px 50px;
+            background: #fff;
+            border-radius: 20px;
+        }
+
+        /* .newlogin_con .gototitle{
+                font-size:18px;
+                text-align:center;
+            } */
+
+        .newlogin_con .gototitle span {
+            display: inline-block;
+            font-size: 18px;
+            cursor: pointer;
+
+        }
+
+        .newlogin_con .gototitle span:nth-child(1) {
+            width: 160px;
+            height: 24px;
+            text-align: center;
+            border-right: 1px solid #ccc;
+        }
+
+        .newlogin_con .gototitle span:nth-child(2) {
+            width: 110px;
+            height: 24px;
+            text-align: center;
+        }
+
+        .newlogin_con .login {
+            background: #999;
+            height: 42px;
+            line-height: 42px;
+            border-radius: 30px;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .newlogin_con .user_num,
+        .user_pwd {
+            margin: 20px auto;
+            width: 300px;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid #dddddd;
+            border-radius: 30px;
+        }
+
+        .newlogin_con .user_num>input,
+        .user_pwd>input {
+            outline: none;
+            border: none;
+            border-radius: 30px;
+            padding: 0 15px;
+        }
+
+        .newlogin_con .user_pwd .forgot {
+            width: 108px;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .gotologin_con .pr1 {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: top;
+            border-right: 1px solid #f4f4f4;
+            padding-right: 30px;
+            margin: 8px 0 0 8px;
+            background: url('images/newico.png') 0 -60px no-repeat;
+        }
+
+        .gotologin_con .pr2 {
+            background: url('images/newico.png') 0 -40px no-repeat;
+
+        }
+
+        .user_pwd a {
+            display: inline-block;
+            width: 80px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            border-left: 1px solid #f4f4f4;
+        }
+
+        .newlogin_con .otherlogin {
+
+            margin: 45px 0 25px 0;
+        }
+
+        .loginstype {
+            display: inline-block;
+        }
+
+        .loginstype a {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+
+        }
+
+        .loginstype a:nth-child(1) {
+            background: url('images/newico2.png') 0 0 no-repeat;
+        }
+
+        .loginstype a:nth-child(2) {
+            background: url('images/newico2.png') -43px 0 no-repeat;
+        }
+
+        .loginstype a:nth-child(3) {
+            background: url('images/newico2.png') -87px 0 no-repeat;
+        }
+
+        .question {
+            font-size: 12px;
+            line-height: 40px;
+        }
+
+
+        /* 注册窗口 */
+        #newlogin {
+            width: 422px;
+            height: 424px;
+            /* width: 322px; */
+            padding: 0 50px;
+            background: #fff;
+            border-radius: 20px;
+            background: #fff;
+            margin: 20px auto;
+            padding-top: 5px;
+
+        }
+
+        .popup {
+            width: 322px;
+            height: 359px;
+        }
+
+        #newlogin .liner {
+            display: inline-block;
+            width: 1px;
+            height: 24px;
+            background: #ccc;
+        }
+
+        #newlogin .gototitle {
+            margin: 30px 0 40px 0;
+        }
+
+        #newlogin .it1 {
+            display: block;
+            width: 160.5px;
+            height: 24px;
+            font-size: 18px;
+            text-align: center;
+            /* line-height: 20px; */
+        }
+
+        #newlogin .gototitle .it1:nth-child(1) {
+            color: #EA724B;
+        }
+
+        #newlogin #getcodes {
+            display: inline-block;
+            width: 110px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 14px;
+            color: #f03e3e;
+            border-left: 1px solid #f4f4f4;
+            text-align: center;
+        }
+
+        .gotologin_con {
+            width: 322px;
+            height: 295px;
+        }
+
+        .gotologin_con .setting {
+            margin: 20px auto;
+            width: 300px;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid #dddddd;
+            border-radius: 30px;
+        }
+
+        .gotologin_con .setting input {
+            outline: none;
+            border: none;
+            border-radius: 30px;
+            padding: 0 15px;
+            font-size: 12px;
+        }
+
+        #newlogin .setting>span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: top;
+            border-right: 1px solid #f4f4f4;
+            padding-right: 30px;
+            margin: 8px 0 0 8px;
+        }
+
+        #newlogin .setting .pr1 {
+            background: url('images/newico.png') 0 -60px no-repeat;
+        }
+
+        #newlogin .setting .pr2 {
+            background: url('images/newico.png') 0 -40px no-repeat;
+        }
+
+        .register_btn {
+            margin: 20px auto;
+            width: 300px;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid #dddddd;
+            border-radius: 30px;
+            background: #999;
+            text-align: center;
+            color: #fff;
+        }
+
+        .otherlogin .que {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .otherlogin a {
+            color: #F06E6E;
+        }
+
+        .otherlogin .meet_que {
+            font-size: 12px;
+            color: #ccc;
+        }
+
+/* 搜索框 */
+
+    #logo_search_car #logo{
+        margin: 21px 0 0 0;
+
+    }
+
+    #logo_search_car #search{
+        margin:36px 0 0 119px
+    }
+
+    #search .search_input{
+        width: 404px;
+        height: 34px;
+        border: 2px solid #459D36;
+        padding-left:13px;
+    }
+
+    #search .search_btn{
+        width: 75px;
+        height: 34px;
+        border: 2px solid #459D36;
+        background:#459D36;
+    }
+
+    #search .search_list li{
+        float:left
+    }
+
+    #search .search_list li span{
+        font-size:14px;
+        padding:0 10px;
+        color:#999999;
+        border-right: 1px solid #ccc;
+    }
+
+    #search .search_list li span.first_span{
+        color:red;
+    }
+
+    #search .search_list li span.last_span{
+        border-right:0 none;
+    }
+
+
+    #logo_search_car #car{
+        // display: block;
+        margin:36px 26px 0 0;
+        font-size:14px;
+    }
+
+    #logo_search_car #car img{
+        margin-right: 14px;
+    }
+
+    #logo_search_car #car span{
+        color:red;
+    }
+
+    // 导航栏目
+    #nav{
+        height: 34px;
+    }
+
+    #nav .nav_list_l li{
+        width: 114px;
+        height: 34px;
+        float: left;
+    }
+
+    #nav .nav_list_r li{
+        float: left;
+        width: 126px;
+        height: 34px;
+    }
+
+    #nav ul span{
+        font-size:16px;
+    }
+
+/* 选项卡 */
+
+
+    /*main*/
+    .car_tab {
+        width: 960px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 15px;
+        box-shadow: 0 0 10px #ccc;
+    }
+
+    .car_tab .title {
+        height: 20px;
+        border-bottom: 3px solid #e7e7e7;
+        padding-bottom: 10px;
+    }
+
+    .car_tab .title-list {
+        position: relative;
+        top: 6px;
+    }
+
+    .car_tab .title-list li {
+        width: 146px;
+        font-size:16px;
+        line-height: 20px;
+        text-align: center;
+        float: left;
+        display: inline-block;
+        border-right: 1px solid #ccc;
+
+    }
+
+    .car_tab .title-list li.on {
+        color: #ff6600;
+        font-weight: bold;
+    }
+
+    .car_tab .title-list p {
+        position: absolute;
+        top: 24px;
+        left: 0px;
+        width: 146px;
+        height: 7px;
+        border-top: 3px solid #ff6600;
+        // overflow: hidden;
+        text-align: center;
+    }
+
+    .car_tab .title-list b {
+        position:absolute;
+        top:-12px;
+        left:65px;
+        border-style: dotted solid solid solid;
+        border-color: transparent transparent #ff6000 transparent;
+        border-width: 5px;
+        font-size: 0;
+        line-height: 0;
+    }
+
+/* 侧边栏 */
+    #side_bar {
+        width: 38px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #000000;
+
+    }
+
+    .side_bar_list {
+        height: 482px;
+        margin-top: 107px;
+    }
+
+    .side_bar_list li a {
+        display: block;
+    }
+
+    #side_bar a i {
+        display: block;
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .side_bar_list li .rt_my i {
+        background: url('../images/bar_new.png') 0 -235px no-repeat;
+        margin: 26px 0;
+    }
+
+    .side_bar_list li .rt_car {
+        width: auto;
+        height: auto;
+        background-image: none;
+        font-size: 12px;
+        padding: 5px 0 10px;
+        margin: 0;
+    }
+
+    .side_bar_list li .rt_car i {
+        background: url('../images/bar_new.png') 0 -270px no-repeat;
+    }
+
+    .side_bar_list li .rt_question {
+        width: auto;
+        height: auto;
+        background-image: none;
+        font-size: 12px;
+        padding: 5px 0 10px;
+        margin: 0 0 15px;
+    }
+
+    .side_bar_list li .rt_question i {
+        background: url('../images/bar_new.png') 2px -617px no-repeat;
+
+    }
+
+    .side_bar_list li .rt_order i {
+        background: url('../images/bar_new.png') 0 -305px no-repeat;
+    }
+
+    .side_bar_list li .rt_view i {
+        background: url('../images/bar_new.png') -1px -693px no-repeat;
+    }
+
+    .rt_app i{
+        background: url('../images/bar_new.png') 0px -410px no-repeat;
+    }
+
+    .rt_weixin i{
+        background: url('../images/bar_new.png') 0 -720px no-repeat;
+    }
+
+    .rt_weibo i{
+        background: url('../images/bar_new.png') 0 -753px no-repeat;
+    }
+
+
+    .side_bar_list li span {
+        display: inline-block;
+        width: 19px;
+        font-size: 12px;
+        margin: 0 8px;
+        color:#ccc;
+    }
+
+/* 尾部导航 */
+        #foot_bar{
+            background: #F5F5F5;
+            margin-top:30px;
+        }
+        #ad{
+            width: 100%;
+            border-bottom:1px solid #ccc;
+        }
+
+        .ad_list li{
+            float: left;
+            width: 163px;
+            height: 65px;
+            margin:20px 35px 20px 0;
+
+        }
+
+        .ad_list li a{
+            display: block;
+            width: 163px;
+            height: 65px;
+            background:url('../images/ad_logo.png') 0 0px no-repeat;
+        }
+        .ad_list li span{
+            display: inline-block;
+            font-size:18px;
+            font-weight:700;
+            margin:22px 0 0 70px;
+        }
+
+        /* 服务 */
+        #serve_nav{
+            width: 100%;
+        }
+
+        #serve_nav .dog_phone{
+            width: 387px;
+            height: 187px;
+            padding-top:30px;
+
+        }
+
+        #serve_nav .dog_phone img{
+            margin-right:28px;
+        }
+
+        #serve_nav .phone{
+            width: 252px;
+            height: 90px;
+
+        }
+
+        #serve_nav .phone p:nth-child(1){
+            font-size:14px;
+            font-weight:400;
+        }
+        #serve_nav .phone p:nth-child(2){
+            font-size:20px;
+            color:#666;
+            margin-top:15px;
+        }
+        #serve_nav .phone p:nth-child(3){
+            font-size:12px;
+            margin-top:15px;
+        }
+
+        /* 关于我们 */
+        #serve_nav .con{
+            border-bottom:1px solid #ccc;
+        }
+        #serve_nav .about{
+            width: 578px;
+            height: 187px;
+
+        }
+
+        .about .about_list{
+            margin-right: 83px;
+            float:left;
+        }
+
+        .about .about_list li{
+            width: 58px;
+            font-size:13px;
+            margin-bottom: 12px;
+
+        }
+
+        .about .about_list li:nth-child(1){
+            color:#666;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 68px;
+
+        }
+
+        /* 二维码 */
+        .QR_code{
+            width: 233px;
+            height: 187px;
+            padding-top: 22px;
+        }
+        .QR_code div p{
+            font-size: 14px;
+            color:#666;
+        }
+
+        .QR_code div p:nth-child(2){
+            margin-bottom: 14px;
+        }
+
+        /* 友情链接 */
+        .friend_link{
+            padding-top:22px;
+        }
+
+        .friend_link ul li {
+            float: left;
+            margin-right: 19px;
+
+        }
+
+        .friend_link ul li a{
+            font-size: 14px;
+            color:#B0D2F5;
+        }
+        .friend_link ul li:nth-child(16){
+            float:right;
+        }
+
+        .friend_link .foot_img{
+            margin: 24px 0 24px 25px ;
+        }
+
+        .friend_link .copyright{
+            font-size: 12px;
+            text-align: center;
+            padding: 20px 0 40px;
+        }
