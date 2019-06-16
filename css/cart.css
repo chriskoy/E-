@@ -323,7 +323,7 @@
 
 
     #logo_search_car #car{
-        // display: block;
+        /* display: block; */
         margin:36px 26px 0 0;
         font-size:14px;
     }
@@ -422,7 +422,7 @@
     #side_bar {
         width: 38px;
         height: 100%;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         background: #000000;

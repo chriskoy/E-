@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../css/common.css">
     <link rel="stylesheet" type="text/css" href="../css/goods_list.css">
     <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/jquery.leanModal.min.js"></script>
     <script src="../js/get_goodsdata.js"></script>
 
 </head>
@@ -38,7 +39,7 @@
             </div>
             <!-- 预售专场 -->
             <div class="con">
-                <a href="#"><img src="images/sale.jpg" alt=""></a>
+                <a href="#"><img src="../images/sale.jpg" alt=""></a>
             </div>
             <!-- 登录窗口 -->
             <div id="loginmodal" style="display:none">
@@ -206,7 +207,7 @@
                 <div class="con clear">
                 <!-- 联系方式 -->
                     <div class="dog_phone fl">
-                        <img src="images/dog_phone.gif" class="fl" alt="">
+                        <img src="../images/dog_phone.gif" class="fl" alt="">
                         <div class="phone fl">
                             <p>售后电话：</p>
                             <p>400-888-9200</p>
@@ -284,10 +285,14 @@
                     <li><a href="#">兽药网</a></li>
                     <li><a href="#">^</a></li>
                 </ul>
-                <div class="foot_img"><img src="./images/foot_img.png" alt=""></div>
+                <div class="foot_img"><img src="../images/foot_img.png" alt=""></div>
                 <div class="copyright">渝ICP备10002905号-1  渝ICP备10002905号-3　营业执照　兽药经营许可证　增值电信业务经营许可证：渝B2-20140042 Copyright © 2007-2018 epet.com 　重庆易宠科技有限公司</div>
             </div>
         </div>
-
+        <script>
+            // 弹出登录注册框
+            $('#modaltrigger_login').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+                $('#modaltrigger_register').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+        </script>
 </body>
 </html>

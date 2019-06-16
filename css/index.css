@@ -400,7 +400,7 @@
     #side_bar {
         width: 38px;
         height: 100%;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         background: #000000;
@@ -1014,7 +1014,7 @@
         .right_bar .rb_top{
             width: 872px;
             height: 300px;
-            background: rgb(56, 122, 160);
+            /* background: rgb(56, 122, 160); */
         }
 
         .right_bar .rb_top .rbt_left{
@@ -1027,19 +1027,22 @@
         .right_bar .rb_top .rbt_right{
             width: 482px;
             height: 300px;
-            background:#0c4944;
+            /* background:#0c4944; */
         }
 
         .right_bar .rb_top .rbt_right .rbtr_top{
             width: 482px;
             height: 150px;
-            border-bottom: 1px solid #ccc;
+            border: 1px solid #ccc;
+            border-width: 0px 1px 1px 0;
             background:url('../images/r2.jpg') no-repeat;
         }
 
         .right_bar .rb_top .rbt_right .rbtr_bottom{
             width: 482px;
             height: 150px;
+            border:1px solid #ccc;
+            border-width: 0px 1px 1px 0;            
             background:url('../images/r3.jpg')no-repeat;
         }
 
@@ -1081,7 +1084,7 @@
         #goods .brand{
             width: 1200px;
             height: 65px;
-            background:rgb(18, 116, 119);
+            /* background:rgb(18, 116, 119); */
         }
 
         #goods .brand div{
@@ -1089,7 +1092,7 @@
             height: 67px;
             float: left;
             border:1px solid #ccc;
-            background: rgb(23, 124, 90);
+            /* background: rgb(23, 124, 90); */
             text-align: center;
             /* vertical-align: center; */
         }
